@@ -1,0 +1,60 @@
+#menu {
+    background-color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ccc;
+ }
+ 
+ #menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+ }
+ 
+ #heading a {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    padding: 10px 20px;
+ }
+ 
+ #menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ #menu li {
+    float: left;
+    margin-right: 20px;
+ }
+ 
+ #menu form {
+    float: right;
+ }
+ 
+ #menu input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+ }
+ 
+ #menu input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ccc;
+    color: #333;
+    border: none;
+ }
+ 
+ @media (max-width: 767px) {
+    #menu {
+       font-size: 14px;
+       padding: 5px 10px;
+    }
+ 
+    #menu form {
+       display: none;
+    }
+ }
