@@ -1,0 +1,2 @@
+# huminsa.github.io
+belajar
